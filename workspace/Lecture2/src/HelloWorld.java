@@ -17,6 +17,10 @@ public final class HelloWorld {
         // no code needed here
     }
 
+    public static void test() {
+
+    }
+
     /**
      * Main method.
      *
@@ -24,7 +28,9 @@ public final class HelloWorld {
      *            the command line arguments; unused here
      */
     public static void main(String[] args) {
+        // TYPE_OF_VARIABLE VARIABLE_NAME = VARIABLE_INSTANCE
         SimpleWriter consoleOut = new SimpleWriter1L();
+        consoleOut.println(0.1 + 0.5);
 //        SimpleWriter fileOut = new SimpleWriter1L("1.txt");
 //        SimpleReader keyboardIn = new SimpleReader1L();
         SimpleReader fileIn = new SimpleReader1L("1.txt");
